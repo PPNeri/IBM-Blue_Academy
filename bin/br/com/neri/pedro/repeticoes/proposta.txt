@@ -1,0 +1,13 @@
+1-Escrever uma classe, com um método chamado "escreveNome". Usando o while, escrever "Academia IBM" por 5 vezes, usando System.out.println
+2-Na mesma classe do exercício 1, usar um loop for que faça a tabuada do 2. A saída esperada é
+2 x 0 = 0
+2 x 1 = 2
+2 x 2 = 4
+….
+2 x 9 = 18
+3. Na mesma classe, criar um método chamado "imprimeTabuada". Usando o for, imprimir as tabuadas de 1 a 9, no mesmo formato do exercício 2 anterior:
+2 x 0 = 0
+2 x 1 = 2
+2 x 2 = 4
+….
+2 x 9 = 18
