@@ -1,0 +1,10 @@
+Switch
+Escrever uma classe, com um atributo int chamado "mes". Criar um método chamado "escreverMesExtenso". 
+Caso o "mes" seja igual a 1, escrever através de System.out.println a String "Janeiro".  
+Caso o "mes" seja igual a 2, escrever a String "Fevereiro", e assim por diante. 
+Modificar o valor de "mes" para testar várias possibilidades.
+
+Ternário
+Reescrever o exercício 1 de if-else com o operador ternário
+Escrever uma classe, com um atributo int chamado "salario". 
+Criar um método chamado "informaValorImposto". Caso o salario seja maior que 5000, retornar 15. Caso contrário, retornar 5
