@@ -13,7 +13,6 @@ public class Application {
 	public static void retornaMes(String mes) {
 
 		switch (mes) {
-
 		case "JANEIRO":
 			System.out.println(MesesDoAno.JANEIRO.getMes());
 			break;
