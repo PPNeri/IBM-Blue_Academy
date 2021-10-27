@@ -5,48 +5,48 @@ public class Application {
 	public static void main(String[] args) {
 
 		for (MesesDoAno mes : MesesDoAno.values()) {
-			retornaMes(mes.toString());
+			retornaMes(mes);
 		}
 
 	}
 
-	public static void retornaMes(String mes) {
+	public static void retornaMes(MesesDoAno mes) {
 
 		switch (mes) {
-		case "JANEIRO":
+		case JANEIRO:
 			System.out.println(MesesDoAno.JANEIRO.getMes());
 			break;
-		case "FEVEREIRO":
+		case FEVEREIRO:
 			System.out.println(MesesDoAno.FEVEREIRO.getMes());
 			break;
-		case "MARCO":
+		case MARCO:
 			System.out.println(MesesDoAno.MARCO.getMes());
 			break;
-		case "ABRIL":
+		case ABRIL:
 			System.out.println(MesesDoAno.ABRIL.getMes());
 			break;
-		case "MAIO":
+		case MAIO:
 			System.out.println(MesesDoAno.MAIO.getMes());
 			break;
-		case "JUNHO":
+		case JUNHO:
 			System.out.println(MesesDoAno.JUNHO.getMes());
 			break;
-		case "JULHO":
+		case JULHO:
 			System.out.println(MesesDoAno.JULHO.getMes());
 			break;
-		case "AGOSTO":
+		case AGOSTO:
 			System.out.println(MesesDoAno.AGOSTO.getMes());
 			break;
-		case "SETEMBRO":
+		case SETEMBRO:
 			System.out.println(MesesDoAno.SETEMBRO.getMes());
 			break;
-		case "OUTUBRO":
+		case OUTUBRO:
 			System.out.println(MesesDoAno.OUTUBRO.getMes());
 			break;
-		case "NOVEMBRO":
+		case NOVEMBRO:
 			System.out.println(MesesDoAno.NOVEMBRO.getMes());
 			break;
-		case "DEZEMBRO":
+		case DEZEMBRO:
 			System.out.println(MesesDoAno.DEZEMBRO.getMes());
 			break;
 		default:
